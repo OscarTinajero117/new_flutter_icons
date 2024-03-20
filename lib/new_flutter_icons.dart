@@ -1,0 +1,20 @@
+library new_flutter_icons;
+
+export 'src/icon_toggle.dart';
+export 'src/icons/ionicons.dart';
+export 'src/icons/ant_design.dart';
+export 'src/icons/font_awesome.dart';
+export 'src/icons/material_icons.dart';
+export 'src/icons/entypo.dart';
+export 'src/icons/evil_icons.dart';
+export 'src/icons/feather.dart';
+export 'src/icons/material_community_icons.dart';
+export 'src/icons/octicons.dart';
+export 'src/icons/simple_line_icons.dart';
+export 'src/icons/zocial.dart';
+export 'src/icons/foundation.dart';
+export 'src/icons/font_awesome_5.dart';
+export 'src/icons/font_awesome_5_solid.dart';
+export 'src/icons/font_awesome_5_brands.dart';
+export 'src/icons/weather_icons.dart';
+export 'src/icons/flutter_icons.dart';

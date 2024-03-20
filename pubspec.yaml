@@ -1,0 +1,75 @@
+name: new_flutter_icons
+description: "A Customizable Icons for Flutter."
+version: 0.0.1
+repository: https://github.com/OscarTinajero117/new_flutter_icons.git
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+flutter:
+  fonts:
+    - family: Ionicons
+      fonts:
+        - asset: fonts/Ionicons.ttf
+    - family: AntDesign
+      fonts:
+        - asset: fonts/AntDesign.ttf
+    - family: FontAwesome
+      fonts:
+        - asset: fonts/FontAwesome.ttf
+    - family: MaterialIcons
+      fonts:
+        - asset: fonts/MaterialIcons.ttf
+    - family: Entypo
+      fonts:
+        - asset: fonts/Entypo.ttf
+    - family: EvilIcons
+      fonts:
+        - asset: fonts/EvilIcons.ttf
+    - family: Feather
+      fonts:
+        - asset: fonts/Feather.ttf
+    - family: Foundation
+      fonts:
+        - asset: fonts/Foundation.ttf
+    - family: MaterialCommunityIcons
+      fonts:
+        - asset: fonts/MaterialCommunityIcons.ttf
+    - family: Octicons
+      fonts:
+        - asset: fonts/Octicons.ttf
+    - family: SimpleLineIcons
+      fonts:
+        - asset: fonts/SimpleLineIcons.ttf
+    - family: Zocial
+      fonts:
+        - asset: fonts/Zocial.ttf
+    - family: FontAwesome5
+      fonts:
+        - asset: fonts/FontAwesome5_Regular.ttf
+    - family: FontAwesome5_Brands
+      fonts:
+        - asset: fonts/FontAwesome5_Brands.ttf
+    - family: FontAwesome5_Solid
+      fonts:
+        - asset: fonts/FontAwesome5_Solid.ttf
+    - family: WeatherIcons
+      fonts:
+        - asset: fonts/weathericons.ttf
