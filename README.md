@@ -66,4 +66,4 @@ Icon(FontAwesome5.html),
 
 If you want to create icons class, you can use [icon_generator](https://github.com/OscarTinajero117/icons_generator) (Follow the instructions).
 
-Cut the generated files and past in the directory `lib/src/icons`
+Cut the generated files and paste in the directory `lib/src/icons`
