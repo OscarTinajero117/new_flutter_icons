@@ -9,6 +9,18 @@ Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) =>
       child: child,
     );
 
+/// A widget that IconToggle.
+/// It is used to toggle between two icons.
+/// The [selectedIconData] and [unselectedIconData] properties are used to set the icons.
+/// The [activeColor] and [inactiveColor] properties are used to set the colors of the icons.
+/// The [value] property is used to set the initial value of the toggle.
+/// The [onChanged] property is used to set the callback function.
+/// The [size] property is used to set the size of the icons.
+/// The [transitionBuilder] property is used to set the transition builder.
+/// The [duration] property is used to set the duration of the animation.
+/// The [reverseDuration] property is used to set the reverse duration of the animation.
+/// The [IconToggle] widget is a stateful widget.
+///
 class IconToggle extends StatefulWidget {
   const IconToggle({
     super.key,
@@ -23,15 +35,35 @@ class IconToggle extends StatefulWidget {
     this.duration = const Duration(milliseconds: 100),
     this.reverseDuration = const Duration(milliseconds: 50),
   });
+
+  /// The icon data for the selected icon.
   final IconData selectedIconData;
+
+  /// The icon data for the unselected icon.
   final IconData unselectedIconData;
+
+  /// The color of the selected icon.
   final Color activeColor;
+
+  /// The color of the unselected icon.
   final Color inactiveColor;
+
+  /// The initial value of the toggle.
   final bool value;
+
+  /// The size of the icons.
   final double size;
+
+  /// The callback function.
   final ValueChanged<bool>? onChanged;
+
+  /// The transition builder.
   final AnimatedSwitcherTransitionBuilder transitionBuilder;
+
+  /// The duration of the animation.
   final Duration duration;
+
+  /// The reverse duration of the animation.
   final Duration reverseDuration;
   @override
   _IconToggleState createState() => _IconToggleState();
