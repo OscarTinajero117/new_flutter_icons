@@ -7,6 +7,7 @@
 * Update Icons.
 * Update Readme.
 * Update Example.
+* Add Documentation
 
 ## 0.0.1
 
