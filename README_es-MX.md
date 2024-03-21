@@ -61,3 +61,9 @@ import 'package:new_flutter_icons/new_flutter_icons.dart';
 Icon(AntDesign.stepforward),
 Icon(FontAwesome5.html),
 ```
+
+## Crear clases de iconos
+
+Para crear las clases de manera automatica, usa [icon_generator](https://github.com/OscarTinajero117/icons_generator) (Sigue sus instrucciones).
+
+Corta los archios generados y pegalos en la carpeta `lib/src/icons/`
