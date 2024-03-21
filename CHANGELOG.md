@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 0.0.2
+
+* Update fonts.
+* Create Generator of Icons.
+* Update Icons.
+* Update Readme.
+* Update Example.
+
 ## 0.0.1
 
 * Start project based on [flutter_icons](https://github.com/flutter-studio/flutter-icons.git)
