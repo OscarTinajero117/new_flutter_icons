@@ -1,10 +1,13 @@
 name: new_flutter_icons
-description: "A Customizable Icons for Flutter."
-version: 0.0.1
+description: "Enhance your Flutter app with customizable icons using New Flutter Icons. Access a diverse library of icons to suit your design needs effortlessly."
+version: 0.0.2
+homepage: https://github.com/OscarTinajero117/new_flutter_icons
 repository: https://github.com/OscarTinajero117/new_flutter_icons.git
+issues: https://github.com/OscarTinajero117/new_flutter_icons/issues
 
 environment:
   sdk: ">=3.3.1 <4.0.0"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
@@ -14,14 +17,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-
-platforms:
-  android:
-  ios:
-  linux:
-  macos:
-  web:
-  windows:
 
 flutter:
   fonts:
@@ -73,3 +68,15 @@ flutter:
     - family: WeatherIcons
       fonts:
         - asset: fonts/weathericons.ttf
+    - family: Fontisto
+      fonts:
+        - asset: fonts/Fontisto.ttf
+    - family: FontAwesome6
+      fonts:
+        - asset: fonts/FontAwesome6_Regular.ttf
+    - family: FontAwesome6_Brands
+      fonts:
+        - asset: fonts/FontAwesome6_Brands.ttf
+    - family: FontAwesome6_Solid
+      fonts:
+        - asset: fonts/FontAwesome6_Solid.ttf
