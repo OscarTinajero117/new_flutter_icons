@@ -10,22 +10,22 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 
 [Browse all](https://oblador.github.io/react-native-vector-icons/).
 
-* [`AntDesign`](https://ant.design/) by AntFinance (**297** icons) -> Need Update
-* [`Entypo`](https://entypo.com) by Daniel Bruce (**411** icons)
-* [`EvilIcons`](https://evil-icons.io) by Alexander Madyankin & Roman Shamin (v1.10.1, **70** icons)
-* [`Feather`](https://feathericons.com) by Cole Bemis & Contributors (v4.7.0, **266** icons) -> Need Update
-* [`FontAwesome`](https://github.com/FortAwesome/Font-Awesome) by Dave Gandy (v4.7.0, **675** icons)
-* [`FontAwesome 5`](https://fontawesome.com) by Fonticons, Inc. (v5.7.0, **1500** (free)) -> Need Update
-* -> Need Add FontAwesome 6
-* -> Need Add Fontisto
-* [`Foundation`](https://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0, **283** icons)
-* [`Ionicons`](https://ionicons.com/) by Ben Sperry (v4.2.4, **696** icons) -> Need Update
-* [`MaterialIcons`](https://www.google.com/design/icons/) by Google, Inc. (v3.0.1, **932** icons) -> Need Update
-* [`MaterialCommunityIcons`](https://materialdesignicons.com/) by MaterialDesignIcons.com  (v4.0.96, **4416** icons) -> Need Update
-* [`Octicons`](https://octicons.github.com) by Github, Inc. (v8.0.0, **177** icons) -> Need Update
-* [`Zocial`](https://zocial.smcllns.com/) by Sam Collins (v1.0, **100** icons) -> Need update
-* [`SimpleLineIcons`](https://simplelineicons.github.io/) by Sabbir & Contributors (v2.4.1, **189** icons) -> Need Update
-* [`Weather Icons`](https://erikflowers.github.io/weather-icons/) by erikflowers (v2.0.10, **596** icons)
+* [`AntDesign`](https://ant.design/) from AntFinance (*298* icons)
+* [`Entypo`](https://entypo.com) by Daniel Bruce (v1.0.1 with *411* icons)
+* [`EvilIcons`](https://evil-icons.io) designed by Alexander Madyankin & Roman Shamin (v1.10.1 with *70* icons)
+* [`Feather`](https://feathericons.com) created by Cole Bemis & Contributors (v4.28.0 featuring *286* icons)
+* [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons) by Dave Gandy (v4.7.0 containing *675* icons)
+* [`FontAwesome 5`](https://fontawesome.com/v5/icons/) from Fonticons, Inc. (v5.15.3 offering *1598* free icons)
+* [`FontAwesome 6`](https://fontawesome.com) designed by Fonticons, Inc. (v6.1.2 featuring *2016* free icons)
+* [`Fontisto`](https://github.com/kenangundogan/fontisto) created by Kenan Gündoğan (v3.0.4 featuring *615* icons)
+* [`Foundation`](https://zurb.com/playground/foundation-icon-fonts-3) by ZURB, Inc. (v3.0 with *283* icons)
+* [`Ionicons`](https://ionicons.com/) crafted by Ionic (v7.1.0 containing *1338* icons)
+* [`MaterialIcons`](https://fonts.google.com/icons/) by Google, Inc. (v4.0.0 featuring *2189* icons)
+* [`MaterialCommunityIcons`](https://materialdesignicons.com/) from MaterialDesignIcons.com (v6.5.95 including *6596* icons)
+* [`Octicons`](https://octicons.github.com) designed by Github, Inc. (v16.3.1 with *250* icons)
+* [`Zocial`](https://zocial.smcllns.com/) by Sam Collins (v1.4.0 with *100* icons)
+* [`SimpleLineIcons`](https://simplelineicons.github.io/) crafted by Sabbir & Contributors (v2.5.5 with *189* icons)
+* [`Weather Icons`](https://erikflowers.github.io/weather-icons/) by erikflowers (v2.0.10, *596* icons)
 
 ## Usage
 
@@ -50,63 +50,14 @@ To use this plugin, add `new_flutter_icons` as a [dependency in your pubspec.yam
 
 ## Example
 
-You need to include the font in the project's pubspec.yaml:
-
-```yaml
-# Ant Design Icons -> ant,
-# Entypo Icons -> ent,
-# Evil Icons -> evi,
-# Feather Icons -> fea,
-# Font Awesome Icons -> faw,
-# Font Awesome 5 Regular -> faw5
-# Font Awesome 5 Solid -> faw5s
-# Font Awesome 5 Brands -> faw5b
-# Foundation Icons -> fou,
-# Ionicons Icons -> ion,
-# Material Community Icons -> mco,
-# Material Icons -> mdi,
-# Octicons Icons -> oct,
-# Simple Line Icons -> sli,
-# Zocial Icons -> zoc,
-# Weather Icons -> wea
-
-...
-
-new_flutter_icons:
-  includes:
-    - ant 
-    - mco
- ...
- ```
-
-your_file.dart:
+You need to add in your project:
 
 ``` dart
 // Import package
 import 'package:flutter/material.dart';
 import 'package:new_flutter_icons/new_flutter_icons.dart';
 
-// Icon name in the original basis added icon set abbreviation name as suffix
-// Hereinafter referred to as the following
-//Ant Design Icons -> ant,
-//Entypo Icons -> ent,
-//Evil Icons -> evi,
-//Feather Icons -> fea,
-//Font Awesome Icons -> faw,
-//Font Awesome 5 Regular -> faw5
-//Font Awesome 5 Solid -> faw5s
-//Font Awesome 5 Brands -> faw5b
-//Foundation Icons -> fou,
-//Ionicons Icons -> ion,
-//Material Community Icons -> mco,
-//Material Icons -> mdi,
-//Octicons Icons -> oct,
-//Simple Line Icons -> sli,
-//Zocial Icons -> zoc,
-//Weather Icons -> wea
-Icon(FlutterIcons.stepforward_ant)
-Icon(FlutterIcons.html5_faw)
-// or
+// Use your icons
 Icon(AntDesign.stepforward),
 Icon(FontAwesome5.html),
 ```
