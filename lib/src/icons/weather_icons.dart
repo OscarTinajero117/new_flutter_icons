@@ -4,8 +4,7 @@ import '../new_flutter_icon_data.dart';
 /// all Icons under WeatherIcons
 ///
 /// https://erikflowers.github.io/weather-icons/
-class WeatherIcons {
-  WeatherIcons._();
+abstract class WeatherIcons {
   static const IconData wi_day_sunny = NewFlutterIconData.weatherIcons(61453);
   static const IconData wi_day_cloudy = NewFlutterIconData.weatherIcons(61442);
   static const IconData wi_day_cloudy_gusts =

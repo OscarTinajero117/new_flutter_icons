@@ -3,9 +3,8 @@ import '../new_flutter_icon_data.dart';
 
 /// all icons under Entypo
 ///
-/// http://entypo.com
-class Entypo {
-  Entypo._();
+/// https://entypo.com/
+abstract class Entypo {
   static const IconData $500px = NewFlutterIconData.entypo(61696);
   static const IconData $500px_with_circle = NewFlutterIconData.entypo(61697);
   static const IconData add_to_list = NewFlutterIconData.entypo(61698);
@@ -289,7 +288,7 @@ class Entypo {
   static const IconData mouse_pointer = NewFlutterIconData.entypo(61954);
   static const IconData music = NewFlutterIconData.entypo(61955);
   static const IconData network = NewFlutterIconData.entypo(61956);
-  static const IconData new_ = NewFlutterIconData.entypo(61957);
+  static const IconData $new = NewFlutterIconData.entypo(61957);
   static const IconData new_message = NewFlutterIconData.entypo(61958);
   static const IconData news = NewFlutterIconData.entypo(61959);
   static const IconData newsletter = NewFlutterIconData.entypo(61960);
@@ -335,7 +334,7 @@ class Entypo {
   static const IconData renren = NewFlutterIconData.entypo(61999);
   static const IconData reply = NewFlutterIconData.entypo(62000);
   static const IconData reply_all = NewFlutterIconData.entypo(62001);
-  static const IconData resize_100_ = NewFlutterIconData.entypo(62002);
+  static const IconData resize_100 = NewFlutterIconData.entypo(62002);
   static const IconData resize_full_screen = NewFlutterIconData.entypo(62003);
   static const IconData retweet = NewFlutterIconData.entypo(62004);
   static const IconData rocket = NewFlutterIconData.entypo(62005);
@@ -382,7 +381,7 @@ class Entypo {
   static const IconData swap = NewFlutterIconData.entypo(62045);
   static const IconData swarm = NewFlutterIconData.entypo(62046);
   static const IconData sweden = NewFlutterIconData.entypo(62047);
-  static const IconData switch_ = NewFlutterIconData.entypo(62048);
+  static const IconData $switch = NewFlutterIconData.entypo(62048);
   static const IconData tablet = NewFlutterIconData.entypo(62049);
   static const IconData tablet_mobile_combo = NewFlutterIconData.entypo(62050);
   static const IconData tag = NewFlutterIconData.entypo(62051);

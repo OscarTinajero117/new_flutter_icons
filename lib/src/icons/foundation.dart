@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import '../new_flutter_icon_data.dart';
 
-/// all Icons under Foundation
+/// all icons under Foundation
 ///
 /// http://zurb.com/playground/foundation-icon-fonts-3
-class Foundation {
-  Foundation._();
+abstract class Foundation {
   static const IconData address_book = NewFlutterIconData.foundation(61696);
   static const IconData alert = NewFlutterIconData.foundation(61697);
   static const IconData align_center = NewFlutterIconData.foundation(61698);

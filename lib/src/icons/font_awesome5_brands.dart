@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import '../new_flutter_icon_data.dart';
 
-/// all Icons under FontAwesome5(Brand)
+/// all icons under FontAwesome5Brands
 ///
-/// https://fontawesome.com
-class FontAwesome5Brands {
-  FontAwesome5Brands._();
+/// https://fontawesome.com/v5/icons/
+abstract class FontAwesome5Brands {
   static const IconData $500px = NewFlutterIconData.fontAwesome5Brands(62062);
   static const IconData accessible_icon =
       NewFlutterIconData.fontAwesome5Brands(62312);
@@ -13,10 +12,10 @@ class FontAwesome5Brands {
   static const IconData acquisitions_incorporated =
       NewFlutterIconData.fontAwesome5Brands(63151);
   static const IconData adn = NewFlutterIconData.fontAwesome5Brands(61808);
-  static const IconData adobe = NewFlutterIconData.fontAwesome5Brands(63352);
   static const IconData adversal = NewFlutterIconData.fontAwesome5Brands(62314);
   static const IconData affiliatetheme =
       NewFlutterIconData.fontAwesome5Brands(62315);
+  static const IconData airbnb = NewFlutterIconData.fontAwesome5Brands(63540);
   static const IconData algolia = NewFlutterIconData.fontAwesome5Brands(62316);
   static const IconData alipay = NewFlutterIconData.fontAwesome5Brands(63042);
   static const IconData amazon_pay =
@@ -50,6 +49,8 @@ class FontAwesome5Brands {
   static const IconData aviato = NewFlutterIconData.fontAwesome5Brands(62497);
   static const IconData aws = NewFlutterIconData.fontAwesome5Brands(62325);
   static const IconData bandcamp = NewFlutterIconData.fontAwesome5Brands(62165);
+  static const IconData battle_net =
+      NewFlutterIconData.fontAwesome5Brands(63541);
   static const IconData behance_square =
       NewFlutterIconData.fontAwesome5Brands(61877);
   static const IconData behance = NewFlutterIconData.fontAwesome5Brands(61876);
@@ -70,9 +71,14 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62100);
   static const IconData bluetooth =
       NewFlutterIconData.fontAwesome5Brands(62099);
+  static const IconData bootstrap =
+      NewFlutterIconData.fontAwesome5Brands(63542);
   static const IconData btc = NewFlutterIconData.fontAwesome5Brands(61786);
+  static const IconData buffer = NewFlutterIconData.fontAwesome5Brands(63543);
   static const IconData buromobelexperte =
       NewFlutterIconData.fontAwesome5Brands(62335);
+  static const IconData buy_n_large =
+      NewFlutterIconData.fontAwesome5Brands(63654);
   static const IconData buysellads =
       NewFlutterIconData.fontAwesome5Brands(61965);
   static const IconData canadian_maple_leaf =
@@ -98,6 +104,10 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62336);
   static const IconData centos = NewFlutterIconData.fontAwesome5Brands(63369);
   static const IconData chrome = NewFlutterIconData.fontAwesome5Brands(62056);
+  static const IconData chromecast =
+      NewFlutterIconData.fontAwesome5Brands(63544);
+  static const IconData cloudflare =
+      NewFlutterIconData.fontAwesome5Brands(57469);
   static const IconData cloudscale =
       NewFlutterIconData.fontAwesome5Brands(62339);
   static const IconData cloudsmith =
@@ -111,6 +121,8 @@ class FontAwesome5Brands {
   static const IconData connectdevelop =
       NewFlutterIconData.fontAwesome5Brands(61966);
   static const IconData contao = NewFlutterIconData.fontAwesome5Brands(62061);
+  static const IconData cotton_bureau =
+      NewFlutterIconData.fontAwesome5Brands(63646);
   static const IconData cpanel = NewFlutterIconData.fontAwesome5Brands(62344);
   static const IconData creative_commons_by =
       NewFlutterIconData.fontAwesome5Brands(62695);
@@ -149,7 +161,10 @@ class FontAwesome5Brands {
   static const IconData d_and_d_beyond =
       NewFlutterIconData.fontAwesome5Brands(63178);
   static const IconData d_and_d = NewFlutterIconData.fontAwesome5Brands(62349);
+  static const IconData dailymotion =
+      NewFlutterIconData.fontAwesome5Brands(57426);
   static const IconData dashcube = NewFlutterIconData.fontAwesome5Brands(61968);
+  static const IconData deezer = NewFlutterIconData.fontAwesome5Brands(57463);
   static const IconData delicious =
       NewFlutterIconData.fontAwesome5Brands(61861);
   static const IconData deploydog =
@@ -179,6 +194,8 @@ class FontAwesome5Brands {
   static const IconData earlybirds =
       NewFlutterIconData.fontAwesome5Brands(62362);
   static const IconData ebay = NewFlutterIconData.fontAwesome5Brands(62708);
+  static const IconData edge_legacy =
+      NewFlutterIconData.fontAwesome5Brands(57464);
   static const IconData edge = NewFlutterIconData.fontAwesome5Brands(62082);
   static const IconData elementor =
       NewFlutterIconData.fontAwesome5Brands(62512);
@@ -189,6 +206,7 @@ class FontAwesome5Brands {
   static const IconData erlang = NewFlutterIconData.fontAwesome5Brands(62365);
   static const IconData ethereum = NewFlutterIconData.fontAwesome5Brands(62510);
   static const IconData etsy = NewFlutterIconData.fontAwesome5Brands(62167);
+  static const IconData evernote = NewFlutterIconData.fontAwesome5Brands(63545);
   static const IconData expeditedssl =
       NewFlutterIconData.fontAwesome5Brands(62014);
   static const IconData facebook_f =
@@ -203,6 +221,8 @@ class FontAwesome5Brands {
   static const IconData fedex = NewFlutterIconData.fontAwesome5Brands(63383);
   static const IconData fedora = NewFlutterIconData.fontAwesome5Brands(63384);
   static const IconData figma = NewFlutterIconData.fontAwesome5Brands(63385);
+  static const IconData firefox_browser =
+      NewFlutterIconData.fontAwesome5Brands(57351);
   static const IconData firefox = NewFlutterIconData.fontAwesome5Brands(62057);
   static const IconData first_order_alt =
       NewFlutterIconData.fontAwesome5Brands(62730);
@@ -246,6 +266,7 @@ class FontAwesome5Brands {
   static const IconData gg_circle =
       NewFlutterIconData.fontAwesome5Brands(62049);
   static const IconData gg = NewFlutterIconData.fontAwesome5Brands(62048);
+  static const IconData git_alt = NewFlutterIconData.fontAwesome5Brands(63553);
   static const IconData git_square =
       NewFlutterIconData.fontAwesome5Brands(61906);
   static const IconData git = NewFlutterIconData.fontAwesome5Brands(61907);
@@ -267,6 +288,8 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62376);
   static const IconData google_drive =
       NewFlutterIconData.fontAwesome5Brands(62378);
+  static const IconData google_pay =
+      NewFlutterIconData.fontAwesome5Brands(57465);
   static const IconData google_play =
       NewFlutterIconData.fontAwesome5Brands(62379);
   static const IconData google_plus_g =
@@ -282,6 +305,7 @@ class FontAwesome5Brands {
   static const IconData grav = NewFlutterIconData.fontAwesome5Brands(62166);
   static const IconData gripfire = NewFlutterIconData.fontAwesome5Brands(62380);
   static const IconData grunt = NewFlutterIconData.fontAwesome5Brands(62381);
+  static const IconData guilded = NewFlutterIconData.fontAwesome5Brands(57470);
   static const IconData gulp = NewFlutterIconData.fontAwesome5Brands(62382);
   static const IconData hacker_news_square =
       NewFlutterIconData.fontAwesome5Brands(62383);
@@ -292,20 +316,27 @@ class FontAwesome5Brands {
   static const IconData hips = NewFlutterIconData.fontAwesome5Brands(62546);
   static const IconData hire_a_helper =
       NewFlutterIconData.fontAwesome5Brands(62384);
+  static const IconData hive = NewFlutterIconData.fontAwesome5Brands(57471);
   static const IconData hooli = NewFlutterIconData.fontAwesome5Brands(62503);
   static const IconData hornbill = NewFlutterIconData.fontAwesome5Brands(62866);
   static const IconData hotjar = NewFlutterIconData.fontAwesome5Brands(62385);
   static const IconData houzz = NewFlutterIconData.fontAwesome5Brands(62076);
   static const IconData html5 = NewFlutterIconData.fontAwesome5Brands(61755);
   static const IconData hubspot = NewFlutterIconData.fontAwesome5Brands(62386);
+  static const IconData ideal = NewFlutterIconData.fontAwesome5Brands(57363);
   static const IconData imdb = NewFlutterIconData.fontAwesome5Brands(62168);
+  static const IconData innosoft = NewFlutterIconData.fontAwesome5Brands(57472);
+  static const IconData instagram_square =
+      NewFlutterIconData.fontAwesome5Brands(57429);
   static const IconData instagram =
       NewFlutterIconData.fontAwesome5Brands(61805);
+  static const IconData instalod = NewFlutterIconData.fontAwesome5Brands(57473);
   static const IconData intercom = NewFlutterIconData.fontAwesome5Brands(63407);
   static const IconData internet_explorer =
       NewFlutterIconData.fontAwesome5Brands(62059);
   static const IconData invision = NewFlutterIconData.fontAwesome5Brands(63408);
   static const IconData ioxhost = NewFlutterIconData.fontAwesome5Brands(61960);
+  static const IconData itch_io = NewFlutterIconData.fontAwesome5Brands(63546);
   static const IconData itunes_note =
       NewFlutterIconData.fontAwesome5Brands(62389);
   static const IconData itunes = NewFlutterIconData.fontAwesome5Brands(62388);
@@ -349,6 +380,7 @@ class FontAwesome5Brands {
   static const IconData markdown = NewFlutterIconData.fontAwesome5Brands(62991);
   static const IconData mastodon = NewFlutterIconData.fontAwesome5Brands(62710);
   static const IconData maxcdn = NewFlutterIconData.fontAwesome5Brands(61750);
+  static const IconData mdb = NewFlutterIconData.fontAwesome5Brands(63690);
   static const IconData medapps = NewFlutterIconData.fontAwesome5Brands(62406);
   static const IconData medium_m = NewFlutterIconData.fontAwesome5Brands(62407);
   static const IconData medium = NewFlutterIconData.fontAwesome5Brands(62010);
@@ -356,24 +388,27 @@ class FontAwesome5Brands {
   static const IconData meetup = NewFlutterIconData.fontAwesome5Brands(62176);
   static const IconData megaport = NewFlutterIconData.fontAwesome5Brands(62883);
   static const IconData mendeley = NewFlutterIconData.fontAwesome5Brands(63411);
+  static const IconData microblog =
+      NewFlutterIconData.fontAwesome5Brands(57370);
   static const IconData microsoft =
       NewFlutterIconData.fontAwesome5Brands(62410);
   static const IconData mix = NewFlutterIconData.fontAwesome5Brands(62411);
   static const IconData mixcloud = NewFlutterIconData.fontAwesome5Brands(62089);
+  static const IconData mixer = NewFlutterIconData.fontAwesome5Brands(57430);
   static const IconData mizuni = NewFlutterIconData.fontAwesome5Brands(62412);
   static const IconData modx = NewFlutterIconData.fontAwesome5Brands(62085);
   static const IconData monero = NewFlutterIconData.fontAwesome5Brands(62416);
   static const IconData napster = NewFlutterIconData.fontAwesome5Brands(62418);
   static const IconData neos = NewFlutterIconData.fontAwesome5Brands(62994);
   static const IconData nimblr = NewFlutterIconData.fontAwesome5Brands(62888);
-  static const IconData nintendo_switch =
-      NewFlutterIconData.fontAwesome5Brands(62488);
   static const IconData node_js = NewFlutterIconData.fontAwesome5Brands(62419);
   static const IconData node = NewFlutterIconData.fontAwesome5Brands(62489);
   static const IconData npm = NewFlutterIconData.fontAwesome5Brands(62420);
   static const IconData ns8 = NewFlutterIconData.fontAwesome5Brands(62421);
   static const IconData nutritionix =
       NewFlutterIconData.fontAwesome5Brands(62422);
+  static const IconData octopus_deploy =
+      NewFlutterIconData.fontAwesome5Brands(57474);
   static const IconData odnoklassniki_square =
       NewFlutterIconData.fontAwesome5Brands(62052);
   static const IconData odnoklassniki =
@@ -385,6 +420,7 @@ class FontAwesome5Brands {
   static const IconData opera = NewFlutterIconData.fontAwesome5Brands(62058);
   static const IconData optin_monster =
       NewFlutterIconData.fontAwesome5Brands(62012);
+  static const IconData orcid = NewFlutterIconData.fontAwesome5Brands(63698);
   static const IconData osi = NewFlutterIconData.fontAwesome5Brands(62490);
   static const IconData page4 = NewFlutterIconData.fontAwesome5Brands(62423);
   static const IconData pagelines =
@@ -394,6 +430,7 @@ class FontAwesome5Brands {
   static const IconData paypal = NewFlutterIconData.fontAwesome5Brands(61933);
   static const IconData penny_arcade =
       NewFlutterIconData.fontAwesome5Brands(63236);
+  static const IconData perbyte = NewFlutterIconData.fontAwesome5Brands(57475);
   static const IconData periscope =
       NewFlutterIconData.fontAwesome5Brands(62426);
   static const IconData phabricator =
@@ -409,6 +446,8 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62693);
   static const IconData pied_piper_pp =
       NewFlutterIconData.fontAwesome5Brands(61863);
+  static const IconData pied_piper_square =
+      NewFlutterIconData.fontAwesome5Brands(57374);
   static const IconData pied_piper =
       NewFlutterIconData.fontAwesome5Brands(62126);
   static const IconData pinterest_p =
@@ -455,7 +494,10 @@ class FontAwesome5Brands {
   static const IconData rocketchat =
       NewFlutterIconData.fontAwesome5Brands(62440);
   static const IconData rockrms = NewFlutterIconData.fontAwesome5Brands(62441);
+  static const IconData rust = NewFlutterIconData.fontAwesome5Brands(57466);
   static const IconData safari = NewFlutterIconData.fontAwesome5Brands(62055);
+  static const IconData salesforce =
+      NewFlutterIconData.fontAwesome5Brands(63547);
   static const IconData sass = NewFlutterIconData.fontAwesome5Brands(62494);
   static const IconData schlix = NewFlutterIconData.fontAwesome5Brands(62442);
   static const IconData scribd = NewFlutterIconData.fontAwesome5Brands(62090);
@@ -467,6 +509,7 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62444);
   static const IconData shirtsinbulk =
       NewFlutterIconData.fontAwesome5Brands(61972);
+  static const IconData shopify = NewFlutterIconData.fontAwesome5Brands(57431);
   static const IconData shopware = NewFlutterIconData.fontAwesome5Brands(62901);
   static const IconData simplybuilt =
       NewFlutterIconData.fontAwesome5Brands(61973);
@@ -490,6 +533,8 @@ class FontAwesome5Brands {
   static const IconData sourcetree =
       NewFlutterIconData.fontAwesome5Brands(63443);
   static const IconData speakap = NewFlutterIconData.fontAwesome5Brands(62451);
+  static const IconData speaker_deck =
+      NewFlutterIconData.fontAwesome5Brands(63548);
   static const IconData spotify = NewFlutterIconData.fontAwesome5Brands(61884);
   static const IconData squarespace =
       NewFlutterIconData.fontAwesome5Brands(62910);
@@ -497,6 +542,8 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(61837);
   static const IconData stack_overflow =
       NewFlutterIconData.fontAwesome5Brands(61804);
+  static const IconData stackpath =
+      NewFlutterIconData.fontAwesome5Brands(63554);
   static const IconData staylinked =
       NewFlutterIconData.fontAwesome5Brands(62453);
   static const IconData steam_square =
@@ -519,6 +566,8 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62173);
   static const IconData supple = NewFlutterIconData.fontAwesome5Brands(62457);
   static const IconData suse = NewFlutterIconData.fontAwesome5Brands(63446);
+  static const IconData swift = NewFlutterIconData.fontAwesome5Brands(63713);
+  static const IconData symfony = NewFlutterIconData.fontAwesome5Brands(63549);
   static const IconData teamspeak =
       NewFlutterIconData.fontAwesome5Brands(62713);
   static const IconData telegram_plane =
@@ -533,6 +582,7 @@ class FontAwesome5Brands {
       NewFlutterIconData.fontAwesome5Brands(62130);
   static const IconData think_peaks =
       NewFlutterIconData.fontAwesome5Brands(63281);
+  static const IconData tiktok = NewFlutterIconData.fontAwesome5Brands(57467);
   static const IconData trade_federation =
       NewFlutterIconData.fontAwesome5Brands(62739);
   static const IconData trello = NewFlutterIconData.fontAwesome5Brands(61825);
@@ -549,8 +599,13 @@ class FontAwesome5Brands {
   static const IconData uber = NewFlutterIconData.fontAwesome5Brands(62466);
   static const IconData ubuntu = NewFlutterIconData.fontAwesome5Brands(63455);
   static const IconData uikit = NewFlutterIconData.fontAwesome5Brands(62467);
+  static const IconData umbraco = NewFlutterIconData.fontAwesome5Brands(63720);
+  static const IconData uncharted =
+      NewFlutterIconData.fontAwesome5Brands(57476);
   static const IconData uniregistry =
       NewFlutterIconData.fontAwesome5Brands(62468);
+  static const IconData unity = NewFlutterIconData.fontAwesome5Brands(57417);
+  static const IconData unsplash = NewFlutterIconData.fontAwesome5Brands(57468);
   static const IconData untappd = NewFlutterIconData.fontAwesome5Brands(62469);
   static const IconData ups = NewFlutterIconData.fontAwesome5Brands(63456);
   static const IconData usb = NewFlutterIconData.fontAwesome5Brands(62087);
@@ -570,6 +625,9 @@ class FontAwesome5Brands {
   static const IconData vk = NewFlutterIconData.fontAwesome5Brands(61833);
   static const IconData vnv = NewFlutterIconData.fontAwesome5Brands(62475);
   static const IconData vuejs = NewFlutterIconData.fontAwesome5Brands(62495);
+  static const IconData watchman_monitoring =
+      NewFlutterIconData.fontAwesome5Brands(57479);
+  static const IconData waze = NewFlutterIconData.fontAwesome5Brands(63551);
   static const IconData weebly = NewFlutterIconData.fontAwesome5Brands(62924);
   static const IconData weibo = NewFlutterIconData.fontAwesome5Brands(61834);
   static const IconData weixin = NewFlutterIconData.fontAwesome5Brands(61911);
@@ -583,6 +641,7 @@ class FontAwesome5Brands {
   static const IconData wix = NewFlutterIconData.fontAwesome5Brands(62927);
   static const IconData wizards_of_the_coast =
       NewFlutterIconData.fontAwesome5Brands(63280);
+  static const IconData wodu = NewFlutterIconData.fontAwesome5Brands(57480);
   static const IconData wolf_pack_battalion =
       NewFlutterIconData.fontAwesome5Brands(62740);
   static const IconData wordpress_simple =
@@ -602,6 +661,7 @@ class FontAwesome5Brands {
   static const IconData y_combinator =
       NewFlutterIconData.fontAwesome5Brands(62011);
   static const IconData yahoo = NewFlutterIconData.fontAwesome5Brands(61854);
+  static const IconData yammer = NewFlutterIconData.fontAwesome5Brands(63552);
   static const IconData yandex_international =
       NewFlutterIconData.fontAwesome5Brands(62484);
   static const IconData yandex = NewFlutterIconData.fontAwesome5Brands(62483);

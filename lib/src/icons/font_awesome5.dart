@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import '../new_flutter_icon_data.dart';
 
-/// all Icons under FontAwesome5(Regular)
+/// all icons under FontAwesome5
 ///
-/// https://fontawesome.com
-class FontAwesome5 {
-  FontAwesome5._();
+/// https://fontawesome.com/v5/icons/
+abstract class FontAwesome5 {
   static const IconData address_book = NewFlutterIconData.fontAwesome5(62137);
   static const IconData address_card = NewFlutterIconData.fontAwesome5(62139);
   static const IconData angry = NewFlutterIconData.fontAwesome5(62806);

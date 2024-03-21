@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import '../new_flutter_icon_data.dart';
 
-/// all Icons under FontAwesome
+/// all icons under FontAwesome
 ///
 /// http://fortawesome.github.io/Font-Awesome/icons/
-class FontAwesome {
-  FontAwesome._();
+abstract class FontAwesome {
   static const IconData glass = NewFlutterIconData.fontAwesome(61440);
   static const IconData music = NewFlutterIconData.fontAwesome(61441);
   static const IconData search = NewFlutterIconData.fontAwesome(61442);
@@ -453,7 +452,7 @@ class FontAwesome {
   static const IconData wheelchair = NewFlutterIconData.fontAwesome(61843);
   static const IconData vimeo_square = NewFlutterIconData.fontAwesome(61844);
   static const IconData turkish_lira = NewFlutterIconData.fontAwesome(61845);
-  static const IconData try_ = NewFlutterIconData.fontAwesome(61845);
+  static const IconData $try = NewFlutterIconData.fontAwesome(61845);
   static const IconData plus_square_o = NewFlutterIconData.fontAwesome(61846);
   static const IconData space_shuttle = NewFlutterIconData.fontAwesome(61847);
   static const IconData slack = NewFlutterIconData.fontAwesome(61848);

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import '../new_flutter_icon_data.dart';
 
-/// all Icons under SimpleLineIcons
+/// all icons under SimpleLineIcons
 ///
 /// https://simplelineicons.github.io/
-class SimpleLineIcons {
-  SimpleLineIcons._();
+abstract class SimpleLineIcons {
   static const IconData user = NewFlutterIconData.simpleLineIcons(57349);
   static const IconData people = NewFlutterIconData.simpleLineIcons(57345);
   static const IconData user_female = NewFlutterIconData.simpleLineIcons(57344);

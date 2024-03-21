@@ -4,8 +4,7 @@ import '../new_flutter_icon_data.dart';
 /// all Icons under Ant Design
 ///
 /// https://ant.design/
-class AntDesign {
-  AntDesign._();
+abstract class AntDesign {
   static const IconData stepforward = NewFlutterIconData.antDesign(58880);
   static const IconData stepbackward = NewFlutterIconData.antDesign(58881);
   static const IconData forward = NewFlutterIconData.antDesign(58882);
