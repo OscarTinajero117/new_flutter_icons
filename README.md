@@ -14,7 +14,7 @@ Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://g
 * [`Entypo`](https://entypo.com) by Daniel Bruce (v1.0.1 with *411* icons)
 * [`EvilIcons`](https://evil-icons.io) designed by Alexander Madyankin & Roman Shamin (v1.10.1 with *70* icons)
 * [`Feather`](https://feathericons.com) created by Cole Bemis & Contributors (v4.28.0 featuring *286* icons)
-* [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons) by Dave Gandy (v4.7.0 containing *675* icons)
+* [`FontAwesome`](https://fortawesome.github.io/Font-Awesome/icons) by Dave Gandy (v4.7.0 containing *675* icons)
 * [`FontAwesome 5`](https://fontawesome.com/v5/icons/) from Fonticons, Inc. (v5.15.3 offering *1598* free icons)
 * [`FontAwesome 6`](https://fontawesome.com) designed by Fonticons, Inc. (v6.1.2 featuring *2016* free icons)
 * [`Fontisto`](https://github.com/kenangundogan/fontisto) created by Kenan Gündoğan (v3.0.4 featuring *615* icons)
