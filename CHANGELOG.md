@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.0.3
+
+* Proviede documentation.
+* Update Readme.
+
 ## 0.0.2
 
 * Update fonts.
