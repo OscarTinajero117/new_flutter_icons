@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.4
+
+* Formatted Files.
+
 ## 0.0.3
 
 * Proviede documentation.
