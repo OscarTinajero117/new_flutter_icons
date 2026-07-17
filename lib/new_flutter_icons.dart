@@ -1,5 +1,3 @@
-library new_flutter_icons;
-
 export 'src/icon_toggle.dart';
 export 'src/icons/ant_design.dart';
 export 'src/icons/entypo.dart';
@@ -21,4 +19,3 @@ export 'src/icons/octicons.dart';
 export 'src/icons/simple_line_icons.dart';
 export 'src/icons/weather_icons.dart';
 export 'src/icons/zocial.dart';
-// export 'src/icons/flutter_icons.dart';
