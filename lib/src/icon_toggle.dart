@@ -9,18 +9,13 @@ Widget _defaultTransitionBuilder(Widget child, Animation<double> animation) =>
       child: child,
     );
 
-/// A widget that IconToggle.
-/// It is used to toggle between two icons.
-/// The [selectedIconData] and [unselectedIconData] properties are used to set the icons.
-/// The [activeColor] and [inactiveColor] properties are used to set the colors of the icons.
-/// The [value] property is used to set the initial value of the toggle.
-/// The [onChanged] property is used to set the callback function.
-/// The [size] property is used to set the size of the icons.
-/// The [transitionBuilder] property is used to set the transition builder.
-/// The [duration] property is used to set the duration of the animation.
-/// The [reverseDuration] property is used to set the reverse duration of the animation.
-/// The [IconToggle] widget is a stateful widget.
+/// A stateful widget that toggles between two icons with an animation.
 ///
+/// Use [selectedIconData] and [unselectedIconData] to specify the icons.
+/// The [activeColor] and [inactiveColor] properties define the icon colors based on the state.
+/// The [value] property sets the current toggle state.
+/// The [onChanged] callback is triggered when the toggle is tapped.
+/// Additional customization options include [size], [transitionBuilder], [duration], and [reverseDuration].
 class IconToggle extends StatefulWidget {
   const IconToggle({
     super.key,
@@ -175,7 +170,7 @@ class _IconPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final Paint paint = Paint()
       ..color = Color.lerp(inactiveColor, activeColor, _value)!
-          .withOpacity(math.min(_value, 0.15))
+          .withValues(alpha: math.min(_value, 0.15))
       ..style = PaintingStyle.fill
       ..strokeWidth = 2.0;
     canvas.drawCircle(
