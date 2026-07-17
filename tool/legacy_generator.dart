@@ -1,7 +1,6 @@
 import 'dart:developer';
 import 'dart:io';
-
-main(List<String> args) {
+void main(List<String> args) {
   Directory directory = Directory("../lib/src");
   File flutterIconFile = File('../lib/src/new_flutter_icons.dart');
   List<File> files = directory.listSync().map((e) => File(e.path)).toList();
