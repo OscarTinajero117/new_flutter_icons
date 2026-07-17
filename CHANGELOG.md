@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.1.0
+
+* Upgrade dependencies.
+* Upgrade Icons.
+
 ## 0.0.4
 
 * Formatted Files.
